@@ -1,105 +1,127 @@
 {
-    "editor.mouseWheelZoom": true,
-    "code-runner.runInTerminal": true,
-    "C_Cpp.updateChannel": "Insiders",
-    "window.zoomLevel": 2,
-    "git.suggestSmartCommit": true,
-    "git.confirmSync": false,
-    "files.autoSave": "afterDelay",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "One Dark Pro",
-    
-    "workbench.iconTheme": "material-icon-theme",
-    "window.menuBarVisibility": "toggle",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
+  "editor.mouseWheelZoom": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "python": "python3 $fullFileName"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "window.zoomLevel": 2,
+  "git.suggestSmartCommit": true,
+  "git.confirmSync": false,
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "toggle",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "stories.username": "poor_Carlynn",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.largeFileOptimizations": false,
+  "git.autofetch": true,
+  "editor.codeActionsOnSave": null,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "italic font",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "meta.class",
+          "meta.var.expr",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js"
         ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "tabnine.experimentalAutoImports": true,
-    "editor.fontFamily": "Fira Code",
-    "editor.wordWrap": "on",
-    "editor.fontLigatures": true,
-    "stories.username": "poor_Carlynn",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.largeFileOptimizations": false,
-    "git.autofetch": true,
-    "editor.codeActionsOnSave": null,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-          {
-            "name": "italic font",
-            "scope": [
-              "comment",
-              "keyword",
-              "storage",
-              "keyword.control",
-              "keyword.control.from",
-              "keyword.control.flow",
-              "keyword.operator.new",
-              "keyword.control.import",
-              "keyword.control.export",
-              "keyword.control.default",
-              "keyword.control.trycatch",
-              "keyword.control.conditional",
-              "storage.type",
-              "storage.type.class",
-              "storage.modifier.tsx",
-              "storage.type.function",
-              "storage.modifier.async",
-              "variable.language",
-              "variable.language.this",
-              "variable.language.super",
-              "meta.class",
-              "meta.var.expr",
-              "constant.language.null",
-              "support.type.primitive",
-              "entity.name.method.js",
-              "entity.other.attribute-name",
-              "punctuation.definition.comment",
-              "text.html.basic entity.other.attribute-name",
-              "tag.decorator.js entity.name.tag.js",
-              "tag.decorator.js punctuation.definition.tag.js",
-              "source.js constant.other.object.key.js string.unquoted.label.js",
-            ],
-            "settings": {
-              "fontStyle": "italic",
-            }
-          },
-        ]
-      },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorCustomizations": {
-    
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.preferredDarkColorTheme": "One Dark Pro",
-    "workbench.preferredLightColorTheme": "One Dark Pro",
-    "oneDarkPro.editorTheme": "oneDarkProFlat",
-    "oneDarkPro.bold": true,
-    "oneDarkPro.vivid": true,
-    "typescript.npm": ""
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {},
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "workbench.preferredLightColorTheme": "One Dark Pro",
+  "oneDarkPro.editorTheme": "oneDarkProFlat",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "typescript.npm": "",
+  "dart.previewLsp": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.sideBar.location": "right",
+  "editor.renderControlCharacters": false,
+  "emmet.excludeLanguages": ["markdown"],
+  "[python]": {
+    "gitlens.codeLens.symbolScopes": ["!Module"]
+  },
+  "python.pythonPath": "/bin/python3",
+  "python.formatting.provider": "black",
+  "code-runner.languageIdToFileExtensionMap": {
+    "bat": ".bat",
+    "powershell": ".ps1",
+    "typescript": ".ts"
+  }
 }
