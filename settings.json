@@ -5,14 +5,11 @@
     "python": "python3 $fullFileName"
   },
   "C_Cpp.updateChannel": "Insiders",
-  "window.zoomLevel": 2,
   "git.suggestSmartCommit": true,
   "git.confirmSync": false,
   "files.autoSave": "afterDelay",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Ayu Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "window.menuBarVisibility": "toggle",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -99,7 +96,6 @@
   "oneDarkPro.editorTheme": "oneDarkProFlat",
   "oneDarkPro.bold": true,
   "oneDarkPro.vivid": true,
-  "typescript.npm": "",
   "dart.previewLsp": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -108,7 +104,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.statusBar.visible": true,
   "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.sideBar.location": "right",
@@ -118,10 +113,72 @@
     "gitlens.codeLens.symbolScopes": ["!Module"]
   },
   "python.pythonPath": "/bin/python3",
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "autopep8",
   "code-runner.languageIdToFileExtensionMap": {
     "bat": ".bat",
     "powershell": ".ps1",
     "typescript": ".ts"
-  }
+  },
+  "python.languageServer": "Pylance",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {#fff}",
+    "opacity: 0.5"
+  ],
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+  "workbench.colorTheme": "codeSTACKr Theme",
+  "window.titleBarStyle": "custom",
+  "editor.cursorBlinking": "expand",
+  "workbench.editor.untitled.hint": "hidden",
+  "terminal.integrated.rendererType": "dom",
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "pink",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "DOCUMENTATION:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      // "border": "1px solid red",
+      // "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "orange"
+      //other styling properties goes here ...
+    }
+  ],
+  "todohighlight.include": [
+
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "window.zoomLevel": 1,
+  "window.menuBarVisibility": "compact",
+  "editor.fontWeight": null
 }
